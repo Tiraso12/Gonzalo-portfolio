@@ -95,8 +95,10 @@ header div ul a{
 .work .images {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap:wrap ;
     background-color: #8c8c8c;
+    width: 75%;
+    height: auto;
     margin: auto;
 }
 
@@ -110,16 +112,32 @@ header div ul a{
 
 .work .images .img2{
     background-color: #1c1c1c;
-    width: 46%;
-    height: 300px;
-    padding: 200px 100px;
+    width: 48%;
+    height: 150px;
+    padding: 100px 50px;
     margin: 10px;
 }
 
 .work .images .img3{
     background-color: #1c1c1c;
-    width: 46%;
-    height: 300px;
-    padding: 200px 100px;
+    width: 48%;
+    height: 150px;
+    padding: 100px 50px;
+    margin: auto;
+}
+
+.work .images .img4{
+    background-color: #1c1c1c;
+    width: 48%;
+    height: 150px;
+    padding: 100px 50px;
     margin: 10px;
+}
+
+.work .images .img5{
+    background-color: #1c1c1c;
+    width: 48%;
+    height: 150px;
+    padding: 100px 50px;
+    margin: auto;
 }
