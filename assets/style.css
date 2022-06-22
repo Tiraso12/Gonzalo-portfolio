@@ -54,6 +54,7 @@ header div ul a{
     display: flex;
     justify-content: space-between;
     margin: 20px;
+    height: 75px;
 }
 
 .me h1 {
