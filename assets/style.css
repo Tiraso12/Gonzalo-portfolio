@@ -6,15 +6,16 @@
 }
 /*header section styles*/
 header {
-    background-color: #1c1c1c;
+    background-color: #8c8c8c;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    background: #1c1c1c;
+    background: #8c8c8c;
     color: white;
 }
 
 header h1 {
-    background-color: #1c1c1c;
+    background-color: #8c8c8c;
     text-align: center;
     padding: 25px 25px;
 }
@@ -24,9 +25,10 @@ header nav {
 }
 
 header nav ul{
-    background-color: #1c1c1c;
+    background-color: #8c8c8c;
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
     justify-content: space-between;
     padding: 25px 25px;
     font-size: 20px;
@@ -34,12 +36,14 @@ header nav ul{
 }
 
 header nav ul a{
-    background-color: #1c1c1c;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #8c8c8c;
     justify-content: space-between;
     text-decoration: none;
     font-size: 30px;
     color: white;
-    padding: 25px;
+    padding: 0 25px 0 25px;
 }
 
 /*hero section styles*/
@@ -225,4 +229,37 @@ header nav ul a{
 .contact a{
     text-decoration: none;
     color: white;
+}
+
+
+/*Media queries*/
+
+@media screen and (max-width: 980px){
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    .hero {
+        margin-bottom: 0;
+    }
+
+    .container {
+        margin: 20px auto;
+        padding-left: 100px;
+        padding-right: 100px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 0 100%;
+        align-items: flex-start;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:768px){
+    .hero{
+        margin-bottom: 20px;
+    }
 }
