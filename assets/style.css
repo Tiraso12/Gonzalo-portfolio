@@ -53,11 +53,11 @@ header div ul a{
 .me {
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    margin: 20px auto;
     height: 75px;
 }
 
-.me h1 {
+.me h2 {
     border-right: 3px solid;
     width: 25%;
     text-align: end;
@@ -76,81 +76,35 @@ header div ul a{
 
 /*work section styles*/
 
-.work {
+.container {
+    margin: 20px auto;
+    padding-right: 200px;
+    background-color: #8c8c8c;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    margin: 20px;
-    height: auto;
-    padding: auto;
+    flex-wrap: wrap;
+    flex: 1 100%;
+    justify-content: center;
 }
 
-.work h1 {
+.container h2 {
+    display: flex;
+    justify-content: flex-end;
     border-right: 3px solid;
     width: 25%;
-    height: auto;
     text-align: end;
     padding-right: 7px;
 }
 
-.work .images {
+.images {
+
     display: flex;
+    flex: 2 70%;
+    flex-wrap: wrap;
     justify-content: space-between;
-    flex-wrap:wrap ;
-    background-color: #8c8c8c;
-    width: 75%;
-    height: auto;
-    margin: auto;
+    padding-left: 20px;
 }
 
-.work .images .img1{
-    background-image: url(../assets/images/coming-soon1.png);
-    background-color: #1c1c1c;
-    width: 100%;
-    height: 300px;
-    padding: 200px 200px;
-    margin: 10px;
-}
-
-/*WORKING HERE*/
-.work .images .img1 h2 {
-    width: 30%;
-    padding: 5px;
-    background-color:white ;
-    text-align: end;
-}
-
-.work .images .img2{
-    background-image: url(../assets/images/coming-soon1.png);
-    background-color: #1c1c1c;
-    width: 48%;
-    height: 150px;
-    padding: 100px 50px;
-    margin: 10px;
-}
-
-.work .images .img3{
-    background-image: url(../assets/images/coming-soon1.png);
-    background-color: #1c1c1c;
-    width: 48%;
-    height: 150px;
-    padding: 100px 100px;
-    margin: auto;
-}
-
-.work .images .img4{
-    background-image: url(../assets/images/coming-soon1.png);
-    background-color: #1c1c1c;
-    width: 48%;
-    height: 150px;
-    padding: 100px 100px;
-    margin: 10px;
-}
-
-.work .images .img5{
-    background-image: url(../assets/images/coming-soon1.png);
-    background-color: #1c1c1c;
-    width: 48%;
-    height: 150px;
-    padding: 100px 100px;
-    margin: auto;
+.img1 {
+    height: 400px;
 }
